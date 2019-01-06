@@ -80,7 +80,7 @@ class App extends Component {
         <Person name={this.state.persons[2].name} age={this.state.persons[2].age}></Person>
 
          <UserInput userName={this.state.userInputs[0].userName} changed={this.changeNameHandler2}></UserInput>
-         <button onClick={this.switchNameHandler2.bind(this,'Yuta')}>Switch Name</button>
+         <button onClick={this.switchNameHandler2.bind(this,'Yuta1')}>Switch Name</button>
          <UserOutput userName={this.state.userInputs[0].userName}></UserOutput>
       </div>
     );
